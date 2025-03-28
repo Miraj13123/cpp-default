@@ -1,0 +1,1 @@
+clang++ -std=c++17 $(find src/ lib/ -name '*.cpp') -I./lib -o app && ./app
