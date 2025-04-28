@@ -54,3 +54,9 @@ here             ^   "apple" is passed to the app when running
 ## [Windows - Setup](srp/PAGE.md)
 ## [Linux(ubuntu) - Setup](srp/PAGE2.md)
 ---
+
+
+
+if you wanna use gcc or g++ if they are already installed and added to environment variable path
+Then replace all clang++ to gcc or g++ inside all these .bat and .sh files carefully
+Then it will use gcc or g++ instead.
