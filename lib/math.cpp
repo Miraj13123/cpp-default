@@ -1,4 +1,4 @@
-#include "suck.hpp"
+#include "math.hpp"
 #include <iostream>
 
 int calc::add(int a, int b){return a + b;}

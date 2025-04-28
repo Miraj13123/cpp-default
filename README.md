@@ -1,8 +1,31 @@
-# unfinished project !!
-## Folder Structure
+# Folder Structure
 The workspace contains two folders by default, where:
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
+
+finally this workspace contains `srp` folder, that contains a few scripts, These are: (they are in both .bat and .sh formats)
+- `clear`
+- `compile`
+- `run`
+- `dev`
+- - Dont run these from the srp folder directly
+- - Copy them into the main folder where `src` and `lib` folder exist
+- - - then you can run them directly by clicking or from command prompt relatively
+
+---
+---
+> ## Examples
+>>### Running "run.bat" relatively from main/master folder if the bat file is in `srp` folder
+>>```batch
+>>srp\run.bat
+>>```
+>>
+>>### Running "run.bat" directly from main/master folder if the bat file is also in the main/master folder (or you can run it by double clicking {but not from srp folder !!} )
+>>```batch
+>>run.bat
+>>```
+---
+---
 
 ## How to run in you [linux:bash] / [windows:cmd/pwsh]
 ### You must have clang compiler in your system and the bin folder of the compiler must be added to the environment PATH variable
@@ -28,6 +51,6 @@ here             ^   "apple" is passed to the app when running
 ---
 # Clang Setup - most beginer friendly compiler
 ---
-## [Windows - Setup](PAGE.md)
-## [Linux(ubuntu) - Setup](PAGE2.md)
+## [Windows - Setup](srp/PAGE.md)
+## [Linux(ubuntu) - Setup](srp/PAGE2.md)
 ---

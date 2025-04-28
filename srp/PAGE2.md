@@ -1,9 +1,21 @@
 #### Return [Previous Page](README.md)
 ---
 
+# Shortcut for Step [ 1 to 5 ] to download clang and add it to environment variable path
+```bash
+sudo apt install clang
+```
+
 # 1. Download Clang Compiler
-###### The one that includes [Clang + LLVM] both
-As I'm writting this clang version is: 18.04
+
+**Download Link**: [https://github.com/llvm/llvm-project/releases](https://github.com/llvm/llvm-project/releases)
+
+
+First enter the latest version available and then 
+Download the file that includes [Clang + LLVM] both for your linux operating sytem.
+
+As I'm writting this clang version is: 20.1.3
+- but, you are safe with version 20.1.3 that includes this file mentioned below \[says ubuntu in it\]
 ```
 clang+llvm-18.1.8-x86_64-linux-gnu-ubuntu-18.04.tar.xz
 ```

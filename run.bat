@@ -1,0 +1,2 @@
+cls
+app.exe

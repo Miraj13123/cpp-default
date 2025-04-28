@@ -1,1 +1,0 @@
-clang++ src/main.cpp lib/suck.cpp -I./lib -o app && ./app
