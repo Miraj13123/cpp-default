@@ -49,10 +49,11 @@ here             ^   "apple" is passed to the app when running
 ```
  
 ---
-# Clang Setup - most beginer friendly compiler
+## Requirements
 ---
-## [Windows - Setup](srp/PAGE.md)
-## [Linux(ubuntu) - Setup](srp/PAGE2.md)
+- A **C++ compiler** must be installed and available in your PATH:
+  - For C++ Compilers: [Visit This Link](https://github.com/Miraj13123/extras/blob/main/c_cpp_compilers.md)
+##### NOTE: `Choose Clang Setup - most beginer friendly compiler`
 ---
 
 
